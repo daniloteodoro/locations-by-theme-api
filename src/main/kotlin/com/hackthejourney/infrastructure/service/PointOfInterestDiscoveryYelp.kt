@@ -20,7 +20,7 @@ class PointOfInterestDiscoveryYelp(@Value("\${yelp.api.url}") private val yelpAp
 
     private val typeToCategory = mapOf<PointOfInterestType, List<YelpCategory>>(
             BEACH to listOf(YelpCategory("beaches")),
-            CAMPING to listOf(YelpCategory("campgrounds"),YelpCategory("summer_camps"),YelpCategory("daycamps")),
+            CAMPING to listOf(YelpCategory("campgrounds"),YelpCategory("rvrental"),YelpCategory("daycamps")),
             CLIMBING to listOf(YelpCategory("climbing"),YelpCategory("rock_climbing")),
             CYCLING to listOf(YelpCategory("bicyclepaths"), YelpCategory("bikerentals")),
             GLIDING to listOf(YelpCategory("hanggliding"),YelpCategory("paragliding"),YelpCategory("skydiving"),YelpCategory("parasailing")),

@@ -13,6 +13,7 @@ class AmadeusConfiguration {
     fun getAmadeusClient() =
         Amadeus.builder(System.getenv())    // Initialize client by reading Amadeus API credentials from the env variables
                 .setLogger(LOGGER)
+                .setLogLevel("debug")
                 .build()
 
     companion object {

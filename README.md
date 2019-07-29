@@ -22,3 +22,6 @@ Subscribe for a dev account on their [website](https://www.yelp.com/fusion) and 
 To run the project, make sure you have Java installed and configured (including JAVA_HOME) and run the following command in the Terminal inside the project's root folder:
 
  `./mvnw spring-boot:run`
+
+
+**The front-end part of this project is available** [here](https://github.com/daniloteodoro/travel-by-theme-app)
